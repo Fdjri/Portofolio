@@ -48,8 +48,9 @@ return [
 
         'file' => [
             'driver' => 'file',
-            'path' => storage_path('framework/cache/data'),
+            'path' => env('CACHE_PATH', '/tmp/laravel_cache'),
             'lock_path' => storage_path('framework/cache/data'),
+            'permission' => 0775,
         ],
 
         'memcached' => [
