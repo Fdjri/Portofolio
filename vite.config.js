@@ -10,9 +10,4 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
-    build: {
-        outDir: 'public/build',
-        assetsDir: 'assets',
-        manifest: true,
-    },
 });
