@@ -1,26 +1,12 @@
 # Ignore vendor directory (dependencies will be installed during build)
 vendor/
-
-# Ignore node_modules directory (if using npm/yarn for frontend)
 node_modules/
-
-# Ignore .env file for security (this file should not be included in version control)
 .env
-
-# Ignore storage and cache directories (they will be generated dynamically)
 storage/
 bootstrap/cache/
-
-# Ignore IDE/editor files (optional)
-.vscode/
-.idea/
-
-# Ignore log files
+.git/
 *.log
-
-# Ignore test files (optional)
 tests/
 
-# Ignore any other unnecessary files (adjust as needed)
-*.md
-.git/
+# Do not ignore images folder
+!public/images/
